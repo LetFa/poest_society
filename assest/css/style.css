@@ -110,19 +110,11 @@ header .img-logo{
 }
 
 
-@media (max-width:600px){
-  .img-fundo h1{
-    font-size: 30px;
-  }
-  .img-fundo h2{
-    font-size: 23px;
-  }
+@media (max-width:690px){
   .img-fundo{
-    background-image: url("../img/img_fundo.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 60vh;
+    background-position: top;
   }
-  
+  .img-fundo h1{
+      font-size: 40px;
+  }
 }
